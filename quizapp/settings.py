@@ -29,9 +29,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [*]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://quizapp-srmj.onrender.com",
-]
+CSRF_TRUSTED_ORIGINS = [*]
 
 
 # Application definition
