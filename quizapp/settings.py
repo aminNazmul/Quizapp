@@ -25,11 +25,13 @@ SECRET_KEY = 'django-insecure-^ep2qs7w2bd!=e)-3c7rh%02uptfwvtr(qkxb9ixjv=@vjuds-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# Rafi
+ALLOWED_HOSTS = [
+    "quizapp-srmj.onrender.com",
+]
 
-ALLOWED_HOSTS = [*]
-
-CSRF_TRUSTED_ORIGINS = [*]
+CSRF_TRUSTED_ORIGINS = [
+    "https://quizapp-srmj.onrender.com",
+]
 
 
 # Application definition
